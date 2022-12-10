@@ -1,7 +1,17 @@
-class klasa1:
-    def __init__(self):
-        print(f'Klasa id: {id(self)}')
+ewa = {'nazwa': 'Ewa Szlachecka', 'urodziny': 1990}
 
-x = klasa1()
+anna = ewa
 
-y = klasa1() * 3
+print(anna is ewa)
+
+print(id(anna))
+print(id(ewa))
+
+anna["miejsce"] = "Warszawa"
+
+print(ewa)
+
+ewa = {'nazwa': 'Ewa Szlachecka', 'urodziny': 1990, 'miejsce': 'Warszawa'}
+
+print(anna == ewa)
+print(ewa is not anna)
