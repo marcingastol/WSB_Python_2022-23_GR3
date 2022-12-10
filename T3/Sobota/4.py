@@ -12,5 +12,5 @@ def abc():
 
 print(abc)
 
-a == b
-a.__eq__(b)
+#a == b
+#a.__eq__(b)
