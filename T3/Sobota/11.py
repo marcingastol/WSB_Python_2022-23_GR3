@@ -5,8 +5,8 @@ def funkcja(n):
 funkcja1 = funkcja
 print(funkcja1)
 
-print(funkcja1(3))
+print(funkcja1(4))
 
-print(map(funkcja, range(3)))
+print(map(funkcja, range(4)))
 
-print(list(map(funkcja, range(3))))
+print(list(map(funkcja, range(4))))
