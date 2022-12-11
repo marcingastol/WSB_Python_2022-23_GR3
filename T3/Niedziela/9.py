@@ -1,17 +1,12 @@
-class Pies():
-    def szczekanie(self):
-        print("hau hau")
+class Osoba():
+    def __init__(self, nazwa):
+        self.nazwa = "Ojciec ",nazwa
 
-class Szczeniak(Pies):
-    def szczekanie(self):
-        print("hau hau hau hau")
+class TelefonOsoba(Osoba):
+    def __init__(self, nazwa, telefon):
+        super().__init__(nazwa)
+        self.telefon = telefon
 
-    def aportowanie(self):
-        print("hi hi hi")
-
-#print(issubclass(Szczeniak, Pies))
-
-Pies1 = Pies()
-Szczeniak1 = Szczeniak()
-
-Szczeniak1.szczekanie()
+damian = TelefonOsoba("Damian Abc",123456789)
+print(damian.nazwa)
+print(damian.telefon)
