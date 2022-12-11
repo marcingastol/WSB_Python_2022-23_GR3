@@ -26,7 +26,7 @@ def zewnetrzna1(func):
 def suma(liczba1, liczba2):
     return liczba1 + liczba2
 
-suma(5,15)
+print(suma(5,15))
 
 #suma1 = zewnetrzna(suma)
 #suma1(5,15)
