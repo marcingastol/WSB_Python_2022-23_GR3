@@ -17,6 +17,8 @@ def zewnetrzna1(func):
     def wewnetrzna1(*args, **kwargs):
         zmienna = func(*args, **kwargs)
 
+        print("Jestem tutaj!")
+
         return zmienna * zmienna
     
     return wewnetrzna1
